@@ -8,11 +8,11 @@
 */
 
 CREATE PROCEDURE [dbo].[pro_subjectAdd]
-	@title NVARCHAR(20),
-	@content NVARCHAR(MAX),
-	@creatorId NVARCHAR(20)
+	@f_title NVARCHAR(20),
+	@f_content NVARCHAR(MAX),
+	@f_creatorId NVARCHAR(20)
 AS
 	INSERT INTO t_subject (f_title, f_content, f_creatorId)
 	OUTPUT inserted.*
-	VALUES (@title, @content, @creatorId)
+	VALUES (@f_title, @f_content, @f_creatorId)
 RETURN 0
