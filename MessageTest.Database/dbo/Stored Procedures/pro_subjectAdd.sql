@@ -9,10 +9,10 @@
 
 CREATE PROCEDURE [dbo].[pro_subjectAdd]
 	@f_title NVARCHAR(20),
-	@f_subjectContent NVARCHAR(MAX),
+	@f_content NVARCHAR(MAX),
 	@f_creatorId NVARCHAR(20)
 AS
 	INSERT INTO t_subject (f_title, f_content, f_creatorId)
 	OUTPUT inserted.*
-	VALUES (@f_title, @f_subjectContent, @f_creatorId)
+	VALUES (@f_title, @f_content, @f_creatorId)
 RETURN 0
