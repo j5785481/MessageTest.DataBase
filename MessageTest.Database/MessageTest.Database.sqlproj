@@ -65,5 +65,7 @@
     <Build Include="dbo\Stored Procedures\pro_subjectAdd.sql" />
     <Build Include="dbo\Tables\t_subject.sql" />
     <Build Include="dbo\Tables\t_message.sql" />
+    <Build Include="dbo\Stored Procedures\pro_subjectDelete.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageQuery.sql" />
   </ItemGroup>
 </Project>
