@@ -1,9 +1,8 @@
 /*
-	描述: 發布主題
+	描述: 刪除主題
 
-	exec pro_subjectAdd
-		@title = '我是主旨'
-		@content = '我是內容'
+	exec pro_subjectDelete
+		@id = 1
 		@creatorId = '114060601'
 */
 

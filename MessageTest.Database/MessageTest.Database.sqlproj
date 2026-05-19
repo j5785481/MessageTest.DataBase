@@ -67,5 +67,11 @@
     <Build Include="dbo\Tables\t_message.sql" />
     <Build Include="dbo\Stored Procedures\pro_subjectDelete.sql" />
     <Build Include="dbo\Stored Procedures\pro_subjectGetById.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageAdd.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageQuery.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageDelete.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageGetByAccount.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageCountIncrement.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageCountReduce.sql" />
   </ItemGroup>
 </Project>
