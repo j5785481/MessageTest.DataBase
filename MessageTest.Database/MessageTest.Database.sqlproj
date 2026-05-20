@@ -71,7 +71,6 @@
     <Build Include="dbo\Stored Procedures\pro_messageQuery.sql" />
     <Build Include="dbo\Stored Procedures\pro_messageDelete.sql" />
     <Build Include="dbo\Stored Procedures\pro_messageGetByAccount.sql" />
-    <Build Include="dbo\Stored Procedures\pro_messageCountIncrement.sql" />
-    <Build Include="dbo\Stored Procedures\pro_messageCountReduce.sql" />
+    <Build Include="dbo\Stored Procedures\pro_subjectUpsert.sql" />
   </ItemGroup>
 </Project>
