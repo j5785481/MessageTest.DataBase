@@ -9,8 +9,7 @@
     <ProjectGuid>{80227ec9-8e95-4e4b-9457-83e6e1c825f8}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
-    <RootPath>
-    </RootPath>
+    <RootPath />
     <RootNamespace>MessageTest.Database</RootNamespace>
     <AssemblyName>MessageTest.Database</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
@@ -48,7 +47,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
-    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -72,5 +70,7 @@
     <Build Include="dbo\Stored Procedures\pro_messageDelete.sql" />
     <Build Include="dbo\Stored Procedures\pro_messageGetByAccount.sql" />
     <Build Include="dbo\Stored Procedures\pro_subjectUpsert.sql" />
+    <Build Include="User Defined Types\type_message.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageBatchDelete.sql" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@
 		@id = 21ec2020-3aea-1069-a2dd-08002b30309d
 */
 CREATE PROCEDURE [dbo].[pro_messageDelete]
-	@f_id UNIQUEIDENTIFIER
+	@f_id NVARCHAR(36)
 AS
 	DELETE FROM t_message WITH (ROWLOCK) 
 	OUTPUT deleted.* 
