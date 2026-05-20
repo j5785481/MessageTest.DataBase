@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[t_message]
 (
-	[f_id]			UNIQUEIDENTIFIER	NOT NULL,
+	[f_id]			NVARCHAR(36)	NOT NULL,
 	[f_subjectId]	INT					NOT NULL,
 	[f_content]		NVARCHAR(100)		NOT NULL,
 	[f_userId]		NVARCHAR(20)		NOT NULL,
