@@ -9,6 +9,6 @@ CREATE PROCEDURE [dbo].[pro_messageBatchDelete]
 AS
 	DELETE m
     OUTPUT deleted.*
-    FROM t_message m¡@
-    INNER JOIN @MessageIds ids ON m.f_id = ids.Id;
+    FROM t_message m 
+    INNER JOIN @MessageIds ids ON m.f_id = ids.f_messageId;
 RETURN 0

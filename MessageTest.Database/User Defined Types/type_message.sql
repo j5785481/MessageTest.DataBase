@@ -4,7 +4,7 @@
 */
 
 CREATE TYPE [dbo].[type_message] AS TABLE (
-	[f_messageId]		INT NOT NULL);
+	[f_messageId]		NVARCHAR(36) NOT NULL);
 GO
 
 GRANT EXECUTE
