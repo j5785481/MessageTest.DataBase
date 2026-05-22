@@ -72,5 +72,7 @@
     <Build Include="dbo\Stored Procedures\pro_subjectUpsert.sql" />
     <Build Include="User Defined Types\type_message.sql" />
     <Build Include="dbo\Stored Procedures\pro_messageBatchDelete.sql" />
+    <Build Include="dbo\Stored Procedures\pro_messageBatchUpsert.sql" />
+    <Build Include="User Defined Types\type_batchMessage.sql" />
   </ItemGroup>
 </Project>
