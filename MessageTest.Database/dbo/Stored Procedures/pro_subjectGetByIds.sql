@@ -10,7 +10,7 @@ CREATE PROCEDURE [dbo].[pro_subjectGetByIds]
 	@SubjectIds [dbo].[type_batchGetByIdsSubject] READONLY
 AS 
 SELECT 
-	f_id, f_title, f_content, f_creatorId, f_createdAt, f_messageCount
+	s.f_id, f_title, f_content, f_creatorId, f_createdAt, f_messageCount
 FROM t_subject s WITH (NOLOCK)
-INNER JOIN @SubjectIds ids ON s.f_id = ids.f_subjectId;
+INNER JOIN @SubjectIds ids ON s.f_id = ids.f_id;
 RETURN 0

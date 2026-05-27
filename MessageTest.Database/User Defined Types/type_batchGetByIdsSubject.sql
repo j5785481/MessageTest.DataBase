@@ -4,7 +4,7 @@
 */
 
 CREATE TYPE [dbo].[type_batchGetByIdsSubject] AS TABLE (
-	[f_subjectId]	INT					NOT NULL);
+	[f_id]	INT					NOT NULL);
 GO
 
 GRANT EXECUTE
