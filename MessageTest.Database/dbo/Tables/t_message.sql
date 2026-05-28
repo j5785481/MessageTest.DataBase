@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[t_message]
+﻿CREATE TABLE [dbo].[t_message]
 (
 	[f_id]			NVARCHAR(36)	NOT NULL,
 	[f_subjectId]	INT					NOT NULL,

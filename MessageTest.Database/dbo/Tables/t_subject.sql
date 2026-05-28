@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[t_subject]
+﻿CREATE TABLE [dbo].[t_subject]
 (
 	[f_id]				INT	IDENTITY (1, 1)	NOT NULL,
 	[f_title]			NVARCHAR(20)		NOT NULL,
